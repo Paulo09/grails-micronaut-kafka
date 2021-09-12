@@ -26,7 +26,7 @@ class BooksController {
             response.status = 404
             return
         }
-        analyticsClient.updateAnalytics([isbn: book.id, name: book.name])
+        analyticsClient.updateAnalytics([isbn: book.isbn])
         render(template: 'book', model: [book: book])
     }
 }
