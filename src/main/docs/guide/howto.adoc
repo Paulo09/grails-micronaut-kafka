@@ -9,16 +9,15 @@ or
 
 The Grails guides repositories contain three folders:
 
-* `initial`  Initial project. Often a simple Grails app with some additional code to give you a head-start.
+* `docker`
 * `complete`
 * `complete-analytics`
 
-In this guide you are going to create two Grails Applications. Both `complete` and `complete-analytics` apps are a completed example. It is the result of working through the steps presented by the guide and applying those changes to the `initial` folder.
+In this guide you are going to create two Grails Applications. Both `complete` and `complete-analytics` apps are a completed example. It is the result of working through the steps presented by the guide and applying those changes.
 
-To complete the guide, go to the `initial` folder
+To run Kafka in Docker the `docker` folder contains a docker compose file. You need 
+https://www.docker.io/gettingstarted/#h_installation[Docker] and https://docs.docker.com/compose/install/[Docker Compose]] installed.
 
-* `cd` into `{githubSlug}/initial`
-
-and follow the instructions in the next sections.
+To complete the guide, follow the instructions in the next sections.
 
 TIP: You can go right to the **completed example** if you `cd` into `{githubSlug}/complete` and `{githubSlug}/complete-analytics`.
