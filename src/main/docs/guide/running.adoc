@@ -2,7 +2,7 @@ Start Kafka:
 
 [source, bash]
 ----
-$ cd docker;
+$ cd docker
 docker$ docker-compose up
 ----
 
@@ -10,7 +10,7 @@ Start the `books` microservice:
 
 [source, bash]
 ----
-$ cd complete;
+$ cd complete
 complete$ ./gradlew bootRun
 ----
 
@@ -18,7 +18,7 @@ Start the `analytics` microservice:
 
 [source, bash]
 ----
-$ cd complete-analytics;
+$ cd complete-analytics
 complete-analytics$ ./gradlew bootRun
 ----
 
