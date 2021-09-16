@@ -6,7 +6,7 @@ http://start.grails.org/[Grails Application Forge] or the command line:
 $ grails create-app example.grails.complete-analytics --profile=rest-api
 ----
 
-For the multi app part of this guide we will need to be able to run both apps simultaneously. To avoid a running port conflict update your app's `application.yml` to include the following.
+For the multi app part of this guide we will need to be able to run both apps simultaneously. To avoid a running port conflict update your app's `application.yml` to include the following:
 
 [source,yml]
 .grails-app/conf/application.yml
@@ -14,7 +14,7 @@ For the multi app part of this guide we will need to be able to run both apps si
 include::complete-analytics/grails-app/conf/application.yml[indent=0, tag=serverPort]
 ----
 
-Create a Domain class `BookAnalytics` which will keep track of how many times a book has been viewed.
+Create a Domain class `BookAnalytics` which will keep track of how many times a book has been viewed:
 
 [source,groovy]
 .grails-app/domain/example/grails/BookAnalytics.groovy

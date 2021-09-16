@@ -5,7 +5,7 @@ Create a Grails application with the `rest-api` profile.
 grails create-app example.grails.complete --profile=rest-api
 ----
 
-First, add a `Book` domain.
+First, add a `Book` domain:
 
 [source,groovy]
 .grails-app/domain/example/grails/Book.groovy
@@ -13,7 +13,7 @@ First, add a `Book` domain.
 include::{sourceDir}/grails-app/domain/example/grails/Book.groovy[]
 ----
 
-Create default CRUD actions for `Book` leveraging http://gorm.grails.org/latest/hibernate/manual/index.html#dataServices[GORM data services].
+Create default CRUD actions for `Book` leveraging http://gorm.grails.org/latest/hibernate/manual/index.html#dataServices[GORM data services]:
 
 [source,groovy]
 .grails-app/services/example/grails/BookGormService.groovy
@@ -21,7 +21,7 @@ Create default CRUD actions for `Book` leveraging http://gorm.grails.org/latest/
 include::{sourceDir}/grails-app/services/example/grails/BookGormService.groovy[]
 ----
 
-Then we need to actually create the book data with our `Bootstrap.groovy`
+Then we need to actually create the book data with our `Bootstrap.groovy`:
 
 [source,groovy]
 .grails-app/init/example/grails/Bootstrap.groovy
@@ -73,7 +73,7 @@ Add the following mapping to `UrlMappings`:
 include::{sourceDir}/grails-app/controllers/example/grails/UrlMappings.groovy[tag=isbn]
 ----
 
-Create two http://views.grails.org/latest/#_json_views[JSON Views] for the controller's actions.
+Create two http://views.grails.org/latest/#_json_views[JSON Views] for the controller's actions:
 
 [source,groovy]
 .grails-app/views/books/_book.gson
