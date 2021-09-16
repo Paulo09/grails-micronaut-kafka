@@ -73,7 +73,7 @@ Add the following mapping to `UrlMappings`:
 include::{sourceDir}/grails-app/controllers/example/grails/UrlMappings.groovy[tag=isbn]
 ----
 
-Create two http://views.grails.org/latest/#_json_views[JSON Views] for the Controller's actions. 
+Create two http://views.grails.org/latest/#_json_views[JSON Views] for the controller's actions.
 
 [source,groovy]
 .grails-app/views/books/_book.gson
