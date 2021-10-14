@@ -17,3 +17,7 @@ jobs:
         cache: gradle
     - name: Run script
       run: ./travis-build.sh
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GIT_NAME: ${{ secrets.GIT_NAME }}
+        GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
