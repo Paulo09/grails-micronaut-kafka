@@ -10,7 +10,7 @@ class UrlMappings {
         put "/$controller/$id(.$format)?"(action:"update")
         patch "/$controller/$id(.$format)?"(action:"patch")
 
-//tag::isbn[] //
+//tag::isbn[] //*
         "/books/$isbn" {
             controller = 'books'
             action = 'show'
