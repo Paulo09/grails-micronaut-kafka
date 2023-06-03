@@ -10,12 +10,6 @@ class UrlMappings {
         put "/$controller/$id(.$format)?"(action:"update")
         patch "/$controller/$id(.$format)?"(action:"patch")
 
-//tag::isbn[] //
-        "/books/$isbn" {
-            controller = 'books'
-            action = 'show'
-        }
-//end::isbn[]
         "/"(controller: 'application', action:'index')
         "500"(view: '/error')
         "404"(view: '/notFound')
